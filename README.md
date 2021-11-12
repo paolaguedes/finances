@@ -12,12 +12,18 @@ Add your earnings and expenses!!
 
 To run project:
 
-> git clone https://github.com/paolaguedes/finances.git
+```
+git clone https://github.com/paolaguedes/finances.git
+```
 
 Install dependencies with:
 
+```
 > yarn
+```
 
 And finally to run:
 
+```
 > yarn start
+```
