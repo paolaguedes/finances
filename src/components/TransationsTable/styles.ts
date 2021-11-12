@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.section`
   max-width: 1120px;
   margin: 0 auto 0;
+  overflow-x:auto;
 
   table { 
     width: 100%;

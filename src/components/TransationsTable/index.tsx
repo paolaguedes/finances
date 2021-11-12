@@ -43,7 +43,3 @@ export function TransationsTable() {
     </Container>
   )
 }
-
-function TransationContext(TransationContext: any) {
-  throw new Error('Function not implemented.');
-}

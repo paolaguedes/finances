@@ -31,6 +31,7 @@ export const GlobalStyle = createGlobalStyle`
   body { 
     background: var(--background);
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
   }
   
   body, input, textarea, button {
@@ -70,6 +71,11 @@ export const GlobalStyle = createGlobalStyle`
     padding: 3rem;
     position: relative;
     border-radius: .25rem;
+    margin: 0 1rem;
+
+    @media(max-width:376px) {
+      padding: 1.5rem;
+    }
   }
 
   .react-modal-close {
