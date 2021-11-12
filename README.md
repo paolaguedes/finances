@@ -10,7 +10,7 @@ Add your earnings and expenses!!
 <img src="https://user-images.githubusercontent.com/53832972/141515543-c24acb6e-a915-499e-a275-627414a8ea70.PNG" width="153">
 </div>
 
-To run project:
+Clone project:
 
 ```
 git clone https://github.com/paolaguedes/finances.git
@@ -19,11 +19,11 @@ git clone https://github.com/paolaguedes/finances.git
 Install dependencies with:
 
 ```
-> yarn
+yarn
 ```
 
 And finally to run:
 
 ```
-> yarn start
+yarn start
 ```
