@@ -4,11 +4,12 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  margin-top: -8rem;
+  margin: -8rem 0 4rem;
 
   @media(max-width:426px) {
-    grid-template-columns: 1fr ;
-    grid-template-rows: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   div {
